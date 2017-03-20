@@ -1,0 +1,100 @@
+body {
+	background-image: url(bambooNoEdit.jpeg);
+	background-repeat: no-repeat;
+	background-size: 1200px auto;
+	background-attachment: fixed; /*scroll*/
+	background-position: right;
+}
+
+#nameHeadLine {
+	margin-left: auto;
+	margin-right: auto;
+	color: #4c4c4c;
+	width: 100%;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.pageLeft {
+	width: 350px;
+	height: 400px;
+	border-radius: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	float:left;
+	opacity: 80%;
+}
+
+.wrapper {
+	width: 350px;
+	margin: 0 auto;	
+	position: relative;
+}
+
+#rightTextDiv {
+	padding: 80px 0px 70px 40px;
+	color: #4c4c4c;
+	display: inline-block;
+	float: left;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	position: relative;
+	opacity: 100;
+}
+
+#slider {
+	width: 280px;
+	height: 280px;
+	overflow: hidden;
+	margin: 10px auto; 
+}
+
+#slider > img {
+	width: 280px;
+	height: 280px
+	float: left;
+	display: none; 
+}
+
+a {
+	padding: 5px 10px;
+	margin: 0px 5px;
+	background-color: #F0F0F0;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #666;
+	opacity: .8;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+a.left{
+	float: left;
+}
+
+a.right{
+	float: right; 
+}
+
+#navMenu {
+	display: inline-block;
+	margin: 20px 0px 20px 52px;
+	width: 350px;
+	height: 400px;
+}
+
+#navList {
+	list-style: none;
+	color: #4c4c4c;
+	background-color: white;
+	margin: auto;
+	display: block;
+	text-align: center;
+	float: left;
+}
+
+#navItem {
+	background-color: white;
+	display: block;
+	margin: 10px auto;
+	padding: 0px;
+}
