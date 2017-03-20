@@ -8,14 +8,32 @@
     <body>
         <div class="pageLeft">
            <h1 id="nameHeadLine">Lauren E. Achey</h1>
+           <div class="wrapper">
+                <div id="slider">
+                    <img id="1" src="mars.jpeg">        
+                    <img id="2" src="hydroponics.jpeg">
+                    <img id="3" src="etchasketch.jpeg">
+                </div>
+
+                <a href="#" class="left" onclick='prev(); return false;'>Previous</a>
+                <a href="#" class="right" onclick='next(); return false;'>Next</a>  
+            </div>
+
+            <div id="navMenu"> 
+            	<ul id="navList"> 
+            		<li><a href="/pages/coursework" id="navItem">Resume</a></li>
+            		<li><a href="/pages/coursework" id="navItem">Coursework</a></li>
+            		<li><a href="/pages/projects/index.html" id="navItem">Projects and Research</a></li>
+            	</ul>
+       		</div>
+        </div>
         </div>
 
         <div id="rightTextDiv"> 
         </div>
 
-    <script src="javaScript/jquery.js"></script>
-    <script src="javaScript/slider.js"></script>
-    <script src="javaScript/script.js"></script>
+    <script src="jquery.js"></script>
+    <script src="slider.js"></script>
   </body>
 
 </html>
