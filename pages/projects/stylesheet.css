@@ -33,6 +33,7 @@ body {
 }
 
 #rightTextDiv {
+	width: 700px;
 	padding: 80px 0px 70px 40px;
 	color: #4c4c4c;
 	display: inline-block;
