@@ -88,6 +88,10 @@ a.right{
 	float: right; 
 }
 
+a.contact {
+	background-color: none;
+}
+
 #navMenu {
 	display: inline-block;
 	margin: 20px 0px 20px 52px;
