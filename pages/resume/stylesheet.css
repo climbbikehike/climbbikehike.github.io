@@ -62,6 +62,7 @@ h5 {
 	width: 280px;
 	height: 280px
 	float: left;
+	margin: auto;
 	display: none; 
 }
 
