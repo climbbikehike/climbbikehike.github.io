@@ -51,6 +51,10 @@ h5 {
 	margin-top: 0px;
 }
 
+ul {
+	padding: 5px auto;
+}
+
 #slider {
 	width: 280px;
 	height: 280px;
