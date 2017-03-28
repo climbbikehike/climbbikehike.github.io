@@ -1,9 +1,9 @@
-body {
-	background-image: url(bambooNoEdit.jpeg);
-	background-repeat: no-repeat;
-	background-size: 1200px auto;
-	background-attachment: fixed; /*scroll*/
-	background-position: right;
+html { 
+  background: url(bambooNoEdit.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #nameHeadLine {
@@ -90,6 +90,7 @@ a.right{
 
 a.contact {
 	background-color: transparent;
+	color: #4c4c4c;
 }
 
 #navMenu {
